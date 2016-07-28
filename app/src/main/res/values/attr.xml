@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCustomLayout">
+        <attr name="translate_size" format="dimension" />
+        <attr name="layout_left" format="integer" />
+        <attr name="layout_top" format="integer" />
+        <attr name="layout_height" format="integer" />
+        <attr name="layout_width" format="integer" />
+        <attr name="layout_columnId" format="integer" />
+        <attr name="layout_translate" format="boolean" />
+    </declare-styleable>
+</resources>

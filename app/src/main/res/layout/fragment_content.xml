@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
              android:layout_width="match_parent"
              android:layout_height="match_parent">
 
-    <TextView
+    <ru.yandex.yamblz.ui.views.MyCustomLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/content"
-        android:textSize="42sp"
-        android:gravity="center"
-        />
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@color/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/content"
+            android:textSize="42sp"
+            />
+
+        <TextView
+            android:background="@color/view2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/content"
+            android:textSize="42sp"
+            />
+
+        <TextView
+            android:background="@color/view3"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="@string/content"
+            android:textSize="42sp"
+            />
+
+        <TextView
+            android:background="@color/view4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/content"
+            android:textSize="42sp"
+            />
+
+        <TextView
+            android:background="@color/view5"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/content"
+            android:textSize="42sp"
+            />
+
+    </ru.yandex.yamblz.ui.views.MyCustomLayout>
 
 </FrameLayout>

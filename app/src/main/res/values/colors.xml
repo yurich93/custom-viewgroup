@@ -3,4 +3,10 @@
     <color name="colorPrimary">#009688</color>
     <color name="colorPrimaryDark">#00796B</color>
     <color name="colorAccent">#03A9F4</color>
+
+    <color name="view1">#888888</color>
+    <color name="view2">#AA0000</color>
+    <color name="view3">#00AA00</color>
+    <color name="view4">#0000AA</color>
+    <color name="view5">#FFFFFF</color>
 </resources>
